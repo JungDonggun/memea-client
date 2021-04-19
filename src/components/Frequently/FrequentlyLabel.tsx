@@ -26,7 +26,7 @@ const Label = styled.label(
     color: color ? color : '#FFFFFF',
     fontWeight: weight,
     lineHeight,
-    fontFamily: fontFamily ? fontFamily : 'NanumGothic-Regular',
+    fontFamily: fontFamily ? fontFamily : 'Noto Sans',
     textShadow,
     textOverflow,
     whiteSpace,

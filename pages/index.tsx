@@ -1,15 +1,16 @@
 import React from 'react'
 import HeaderContainer from '../src/containers/Header/HeaderContainer'
+import MemeaHomePopularCardList from '../src/components/MemeaHome/MemeaHomePopularCardList'
 
-const MainHome: React.FunctionComponent = () => {
+const MemeaHome: React.FunctionComponent = () => {
   return (
     <div>
       <HeaderContainer/>
       <div>
-        test123
+        <MemeaHomePopularCardList/>
       </div>
     </div>
   )
 }
 
-export default MainHome
+export default MemeaHome

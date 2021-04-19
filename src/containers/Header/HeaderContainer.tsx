@@ -19,7 +19,7 @@ const Container = styled.div(() => ({
 const HeaderContainer: React.FunctionComponent = () => {
   return (
     <Container>
-      <MenuOutlined style={{ color: '#FFFFFF' }}/>
+      <MenuOutlined style={{ color: '#FFFFFF', cursor: 'pointer', fontSize: 22 }}/>
       <MemeaLogo/>
       <Badge count={<ClockCircleOutlined style={{ color: '#CC0000' }}/>}>
         <a href="#" className="head-example"/>
